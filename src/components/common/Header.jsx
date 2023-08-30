@@ -3,13 +3,15 @@ export default function Header() {
     <>
       <section className="header-secondary">
         <div className="header-contact d-none d-lg-block">
-          <ul>
+          <ul className="d-flex align-items-center gap-2">
             <li>
               <a href="tel:+1-877-666-1840" title="Call us">
                 <i className="fa-solid fa-phone"></i>
                 Toll Free 1-877-666-1840
               </a>
             </li>
+
+            <li> | </li>
 
             <li>
               <a href="mailto:office@traidaffairs.com" title="Email us">
@@ -37,9 +39,10 @@ export default function Header() {
 
         <div className="header-controls">
           <ul className="d-flex gap-4 flex-lg-row-reverse">
-            <li>
+            <li className="position-relative">
               <button type="button" title="Cart">
                 <i className="fa-solid fa-cart-shopping"></i>
+                <span className="cart-quantity">3</span>
               </button>
             </li>
 

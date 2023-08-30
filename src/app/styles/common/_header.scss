@@ -27,6 +27,12 @@
     ul {
       display: flex;
       gap: 16px;
+
+      i[class*='fa-'] {
+        margin-right: 16px;
+        color: $brand-primary;
+        font-size: 24px;
+      }
     }
   }
 
@@ -38,6 +44,17 @@
     ul {
       i[class*='fa-'] {
         font-size: 24px;
+      }
+      .cart-quantity {
+        padding: 0 6px;
+        height: 16px;
+        background-color: $brand-primary;
+        position: absolute;
+        top: -8px;
+        right:-8px;
+        border-radius: 30px;
+        color:$white;
+        font-size: 12px;
       }
     }
   }
@@ -77,6 +94,26 @@
         &:hover {
           background: $brand-primary;
           color: $white;
+        }
+      }
+    }
+    .nav-secondary {
+      ul {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+      }
+
+      a {
+        display: block;
+        font-weight: 400;
+        line-height: 18px;
+        font-size: 14px;
+        text-transform: uppercase;
+        transition: color 0.2s linear;
+
+        &:hover {
+          color: $brand-primary;
         }
       }
     }
