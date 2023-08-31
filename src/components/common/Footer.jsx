@@ -165,21 +165,21 @@ export default function Footer() {
             <ul>
               <li>
                 <a href="tel:+0039 02 760 003 66" title="Call us">
-                  <i className="fa-solid fa-phone"></i>
+                <i class="fa-solid fa-mobile"></i>
                   Support
                 </a>
               </li>
 
               <li>
                 <a href="/" title="Ask us a question">
-                  <i class="fa-brands fa-rocketchat"></i>
+                <i class="fa-solid fa-comment-sms"></i>
                   Chat
                 </a>
               </li>
 
               <li>
                 <a href="mailto:office@thread-affair.com" title="E-mail us">
-                  <i class="fa-regular fa-envelope"></i>
+                <i class="fa-solid fa-envelope-open-text"></i>
                   Email
                 </a>
               </li>
