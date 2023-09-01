@@ -1,6 +1,7 @@
 import ProductTile from '@/components/catalog/ProductTile';
 import Footer from '@/components/common/Footer';
 import Header from '@/components/common/Header';
+import HomeCarousel from '@/components/home/HomeCarousel';
 import HomeCatalogPreview from '@/components/home/HomeCatalogPreview';
 import HomeNewsletter from '@/components/home/HomeNewsletter';
 import Payment from '@/components/home/Payment';
@@ -13,6 +14,10 @@ export default function Home() {
       </header>
 
       <main className="content">
+        <header>
+          <HomeCarousel></HomeCarousel>
+
+        </header>
         <div className="layout-css">
           <HomeCatalogPreview></HomeCatalogPreview>
         </div>
@@ -28,15 +33,15 @@ export default function Home() {
         {/* layout bootstrap style */}
         <div className="container">
           <ul className="row justify-content-between">
-            <li className="col-12 col-lg-3 mb-5">
+            <li className="col-12 col-lg-3 mb-5 p-0">
               <ProductTile></ProductTile>
             </li>
 
-            <li className="col-12 col-lg-3 mb-5">
+            <li className="col-12 col-lg-3 mb-5 p-0">
               <ProductTile></ProductTile>
             </li>
 
-            <li className="col-12 col-lg-3">
+            <li className="col-12 col-lg-3 p-0">
               <ProductTile></ProductTile>
             </li>
           </ul>
